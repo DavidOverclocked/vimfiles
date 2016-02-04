@@ -125,4 +125,9 @@ function! s:abolish_t(word)
 endfunction
 
 " }}}1
-" vim:set sw=2 sts=2:
+" tor / shiftwidth --------------------
+" "  Set tabulator and shift width to 4 (Perl Style Guide)
+" "
+setlocal  tabstop=2
+setlocal  shiftwidth=2
+" "vim:set sw=2 sts=2:

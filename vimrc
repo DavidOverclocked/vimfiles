@@ -10,17 +10,21 @@ Plug 'tpope/vim-commentary'
 Plug 'flazz/vim-colorschemes'
 Plug 'wincent/Command-T'
 Plug 'Valloric/YouCompleteMe'
+Plug 'StanAngeloff/php.vim'
+Plug 'wookiehangover/jshint.vim'
+Plug 'evidens/vim-twig'
 
 Plug 'tpope/vim-rails'
 Plug 'tpope/gem-ctags'
 Plug 'tpope/vim-rake'
 Plug 'tpope/vim-bundler'
-
+Plug 'cakebaker/scss-syntax.vim'
 
 Plug 'avakhov/vim-yaml'
 Plug 'xenoterracide/html.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'bling/vim-airline'
+Plug 'jelera/vim-javascript-syntax'
 
 " Haskell
 Plug 'Shougo/vimproc.vim'
@@ -39,15 +43,18 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
+set nowrap
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_html_tidy_exec = 'plugin/tidy_html5/tidy-html5'
-
 set splitbelow
 set splitright
