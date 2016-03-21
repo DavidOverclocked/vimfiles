@@ -44,16 +44,13 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 set nowrap
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+set runtimepath
 filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_html_tidy_exec = 'plugin/tidy_html5/tidy-html5'
 set splitbelow
