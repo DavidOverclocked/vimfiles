@@ -43,10 +43,13 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-set nowrap
-set runtimepath
-filetype plugin indent on
 set tabstop=4
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype php setlocal ts=4 sts=4 sw=4
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
+set nowrap
+filetype plugin indent on
 set shiftwidth=4
 set expandtab
 let g:syntastic_always_populate_loc_list = 1
