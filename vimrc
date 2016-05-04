@@ -50,7 +50,7 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 set nowrap
 filetype plugin indent on
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
