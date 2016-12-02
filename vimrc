@@ -72,7 +72,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_html_tidy_exec = 'plugin/tidy_html5/tidy-html5'
+let g:syntastic_eruby_ruby_quiet_messages = {'regex': 'possibly useless use of a variable in void context'}
 set splitbelow
 set splitright
 set encoding=utf8
-set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
+set guifont=DroidSansMonoForPowerline\ Nerd\ Font:h11
+let g:airline_powerline_fonts = 1
