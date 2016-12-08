@@ -78,3 +78,9 @@ set splitright
 set encoding=utf8
 set guifont=DroidSansMonoForPowerline\ Nerd\ Font:h11
 let g:airline_powerline_fonts = 1
+
+set wrap
+set linebreak
+" note trailing space at end of next line
+" set showbreak=>\ \ \
+autocmd BufWritePre * %s/\s\+$//e
