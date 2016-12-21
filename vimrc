@@ -56,7 +56,7 @@ filetype plugin indent on
 set shiftwidth=2
 set expandtab
 set background=dark
-colorscheme hybrid_material
+colorscheme jellybeans
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
@@ -67,6 +67,7 @@ set splitright
 set encoding=utf8
 set guifont=DroidSansMonoForPowerline\ Nerd\ Font:h11
 let g:airline_powerline_fonts = 1
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
 
 " set wrap
 " set linebreak
